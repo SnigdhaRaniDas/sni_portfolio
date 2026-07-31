@@ -1,0 +1,605 @@
+/* ==========================
+        DARK MODE THEME
+   Black + Red/Pink Accent
+========================== */
+
+
+/* Variables */
+
+body.dark-mode {
+
+    --dark-bg: #0a0a0a;
+
+    --dark-card: #141414;
+
+    --dark-text: #e8e8e8;
+
+    --dark-muted: #bdbdbd;
+
+    --accent: #ff1f5a;
+
+    --border: #3a0d18;
+
+}
+
+
+
+/* ==========================
+        GLOBAL
+========================== */
+
+
+body.dark-mode {
+
+    background: #0a0a0a;
+
+    color: #e8e8e8;
+
+}
+
+
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+
+    color: white;
+
+}
+
+
+
+body.dark-mode p {
+
+    color: #bdbdbd;
+
+}
+
+
+
+
+/* ==========================
+        NAVBAR
+========================== */
+
+
+body.dark-mode #header {
+
+    background: #050505;
+
+    border-bottom: 1px solid #3a0d18;
+
+    box-shadow: 0 5px 20px rgba(255, 31, 90, .15);
+
+}
+
+
+
+body.dark-mode .nav-menu ul li a {
+
+    color: white;
+
+}
+
+
+
+body.dark-mode .nav-menu ul li a:hover {
+
+    color: #ff1f5a;
+
+}
+
+
+
+/* ==========================
+        HOME
+========================== */
+
+
+body.dark-mode #home {
+
+    background:
+
+        radial-gradient(circle at 75% 30%,
+
+            rgba(255, 31, 90, .18),
+
+            transparent 60%),
+
+        #0a0a0a;
+
+}
+
+
+
+body.dark-mode #changing-text {
+
+    color: #ff1f5a;
+
+}
+
+
+
+body.dark-mode .social-icons a,body.dark-mode footer .social-icons a {
+
+    color: white;
+
+}
+
+
+
+body.dark-mode .social-icons a:hover ,footer .social-icons a:hover {
+
+    color: #ff1f5a;
+
+}
+
+
+
+/* ==========================
+        ABOUT
+========================== */
+
+
+body.dark-mode #About {
+
+
+    background:
+
+        radial-gradient(circle at 20% 20%,
+
+            rgba(255, 31, 90, .15),
+
+            transparent 55%),
+
+        #0a0a0a;
+
+
+    border-top: 1px solid #3a0d18;
+
+}
+
+
+
+body.dark-mode .aboutme h1 {
+
+    color: #ff1f5a;
+
+}
+body.dark-mode .aboutme p {
+
+    color: #e8e8e8;
+
+}
+
+
+
+
+/* ==========================
+        PROJECTS
+========================== */
+
+
+body.dark-mode #Projects {
+
+
+    background:
+
+        radial-gradient(circle at 80% 10%,
+
+            rgba(255, 31, 90, .15),
+
+            transparent 55%),
+
+        #0a0a0a;
+
+
+}
+
+body.dark-mode .project-links a {
+
+    color: #ff1f5a;
+
+}
+
+body.dark-mode #Projects h1 {
+
+    color: #ff1f5a;
+
+}
+
+
+
+body.dark-mode .projectname {
+
+    background: #141414;
+
+    border: 1px solid #3a0d18;
+
+    color: white;
+
+    box-shadow:
+
+        0 5px 20px rgba(255, 31, 90, .15);
+
+}
+
+
+
+body.dark-mode .projectname:hover {
+
+    border-color: #ff1f5a;
+
+    box-shadow:
+
+        0 0 30px rgba(255, 31, 90, .4);
+
+}
+
+
+
+/* ==========================
+        ACHIEVEMENTS
+========================== */
+
+
+body.dark-mode #Achievements,
+body.dark-mode #Education {
+
+
+    background:
+
+        radial-gradient(circle at 30% 80%,
+
+            rgba(255, 31, 90, .15),
+
+            transparent 55%),
+
+        #0a0a0a;
+
+
+}
+body.dark-mode #Achievements h1,
+body.dark-mode .track span {
+    color: rgba(255, 255, 255, .08);
+}
+
+
+
+body.dark-mode .achievement-card,
+body.dark-mode .education-card {
+
+
+    background: #141414;
+
+    border: 1px solid #3a0d18;
+
+    box-shadow:
+
+        0 10px 25px rgba(0, 0, 0, .5);
+
+
+}
+
+
+
+body.dark-mode .achievement-card:hover,
+body.dark-mode .education-card:hover {
+
+
+    border-color: #ff1f5a;
+
+
+    box-shadow:
+
+        0 0 25px rgba(255, 31, 90, .35);
+
+
+}
+
+
+
+body.dark-mode .achievement-card h3,
+body.dark-mode .education-card h3 {
+
+    color: #ff4d5a;
+
+}
+
+
+
+body.dark-mode .achievement-card p,
+body.dark-mode .education-card p {
+
+    color: #bdbdbd;
+
+}
+
+
+
+body.dark-mode .cert-btn {
+
+    background: #ff1f5a;
+
+    color: white;
+
+}
+
+
+
+body.dark-mode .certificate-view img {
+
+    border: 2px solid #ff1f5a;
+
+}
+
+
+
+/* ==========================
+        CONTACT
+========================== */
+
+
+body.dark-mode #Contact {
+
+
+    background:
+
+        radial-gradient(circle at 30% 80%,
+
+            rgba(255, 31, 90, .15),
+
+            transparent 55%),
+
+        #0a0a0a;
+
+
+}
+body.dark-mode  h1 {
+
+    color: #ff1f5a;
+
+}
+
+body.dark-mode #Contact h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ff1f5a;
+}
+body.dark-mode .contact-info form {
+
+
+    background: #141414;
+
+    border: 1px solid #3a0d18;
+
+    box-shadow:
+
+        0 10px 30px rgba(255, 31, 90, .15);
+
+
+}
+
+
+
+body.dark-mode label {
+
+    color: white;
+
+}
+
+
+
+body.dark-mode input,
+body.dark-mode textarea {
+
+
+    background: #0a0a0a;
+
+    color: white;
+
+    border: 1px solid #3a0d18;
+
+
+}
+
+
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus {
+
+
+    border-color: #ff1f5a;
+
+    box-shadow:
+
+        0 0 15px rgba(255, 31, 90, .4);
+
+
+}
+
+
+
+body.dark-mode .contact-info button {
+
+
+    background: #ff1f5a;
+
+    color: white;
+
+
+}
+
+
+
+/* ==========================
+        FOOTER
+========================== */
+
+
+body.dark-mode #footer {
+
+
+    background: #050505;
+
+    border-top: 1px solid #3a0d18;
+
+    box-shadow:
+
+        0 -5px 30px rgba(255, 31, 90, .15);
+
+
+}
+
+
+
+body.dark-mode .footer-content a {
+
+    color: white;
+
+}
+
+
+
+body.dark-mode .footer-content a:hover {
+
+    color: #ff1f5a;
+
+}
+
+
+
+
+/* ==========================
+        TOGGLE BUTTON
+========================== */
+
+
+.theme-toggle {
+
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    border: 1px solid #ccc;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    color: #1E2E12;
+
+}
+
+
+
+body.dark-mode .theme-toggle {
+
+
+    color: #ff1f5a;
+
+    border-color: #3a0d18;
+
+
+}
+
+
+
+.theme-toggle .fa-sun {
+
+    display: none;
+
+}
+
+
+
+body.dark-mode .theme-toggle .fa-sun {
+
+    display: inline-block;
+
+}
+
+
+
+body.dark-mode .theme-toggle .fa-moon {
+
+    display: none;
+
+}
+
+body.dark-mode .achievement-card {
+
+    background: #141414;
+
+    border: 1px solid #3a0d18;
+
+}
+
+
+body.dark-mode .achievement-card h3 {
+
+    color: #ff4d5a;
+
+}
+
+
+body.dark-mode .achievement-card p {
+
+    color: #ccc;
+
+}
+
+
+body.dark-mode #Achievements h1 ,body.dark-mode #Education h1,body.dark-mode .contact-info h1 {
+
+    color: #ff1f5a;
+
+}
+
+body.dark-mode #Education {
+
+    background: #0a0a0a;
+
+}
+
+
+
+body.dark-mode .education-card {
+
+    background: #141414;
+
+    border: 1px solid #3a0d18;
+
+    box-shadow: 0 10px 25px rgba(255, 31, 90, .15);
+
+}
+
+
+
+body.dark-mode .education-card h3 {
+
+    color: white;
+
+}
+
+
+
+body.dark-mode .education-card p {
+
+    color: #ccc;
+
+}
+
+
+body.dark-mode .edu-icon {
+
+    background: #ff1f5a;
+
+    color: white;
+
+}
